@@ -1,0 +1,10 @@
+*.png
+*.txt
+*.o
+jc
+relf
+
+test*.jaul
+*.out
+
+*~

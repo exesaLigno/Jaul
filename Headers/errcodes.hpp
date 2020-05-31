@@ -1,0 +1,8 @@
+#pragma once
+
+enum ERRORS
+{
+	SUCCESS = 0,
+	WRONG_EXTENSION,
+	FILE_NOT_EXIST
+};
