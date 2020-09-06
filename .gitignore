@@ -1,10 +1,28 @@
-*.png
-*.txt
-*.o
+**/*.png
+**/*.txt
+**/*.o
 jc
+jvm
 relf
+makeobj
 
-test*.jaul
+*test*.jaul
 *.out
 
 *~
+
+Docs/
+
+Examples/*.s
+**/*.jo
+!.std/**/*.jo
+**/*.jv
+**/*.hex
+
+.kdev4
+Jaul.kdev4
+compiled_nasm
+compiled_nasm.txt
+test
+test.*
+nasm.s
