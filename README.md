@@ -5,12 +5,18 @@
 ### Contents
 
 * [About language - Syntax](#jc_syntax)
-
-* [Using - Compiler](#jc_usage)  
-  [Compilation principle](#principle)  
-  [Object files](#object)  
-  [Assembly](#assembly)  
-  [Examples](#examples)  
+    * [Blocks separation](#blocks)
+    * [Variable types](#types)
+    * [Functions](#functions)
+    * [Branching](#branching)
+    * [Input and output](#io)
+    * [Operators](#operators)
+  
+* [Using - Compiler](#jc_usage)
+* [Compilation principle](#principle)
+* [Object files](#object)
+* [Assembly](#assembly)
+* [Examples](#examples)
   <!-- [Performance tests](#performance)  -->
   <!-- [Using - Running JVM](#jvm_usage)  -->
   <!-- [JAUL Virtual Mashine](#jvm)  -->
@@ -20,16 +26,16 @@
 
 <a name="jc_syntax"><h2>JAUL syntax bible</h2></a>
 
-1. Blocks of code are separated with indents.
+1. <a name="blocks"></a>Blocks of code are separated with indents.
 
-2. Syntax have simple dynamic-typization -- two types (integer and float) has 4 bytes length.
+2. <a name="types"></a>Syntax have simple dynamic-typization -- two types (integer and float) has 4 bytes length.
    
    Type redefinition avalible only in linear blocks - if you try to assign 
    float number to integer variable in cycle you get **assignment error**. 
    To redifine type in cycle and fix this error, use manual redefinition - 
    functions `float()` and `int()`
    
-3. New functions declaring like this:
+3. <a name="functions"></a>New functions declaring like this:
    
    ```
    def new_function(a, b, ...)
@@ -57,7 +63,7 @@
    
    **Beware!** Compiler doesn't check count and correctness of parameters in function call.
    
-4. Language supports the following branching operators:
+4. <a name="branching"></a>Language supports the following branching operators:
    
    **If-else branching:**  
    ```
@@ -99,10 +105,10 @@
    You can also use conrol words **_break_** or **_continue_** in cycles to control
    execution flow
    
-5. Default `input()` and `print()` functions are created for floats only.  
+5. <a name="io"></a>Default `input()` and `print()` functions are created for floats only.  
    To use those functions for ints, use `i_input()` and `i_print()`.
    
-6. Supported operators:
+6. <a name="operators"></a>Supported operators:
 
    **Arithmetics:**  `+, -, *, /`  
    **Comparison:**   `>, >=, <, <=, ==, !=`  
