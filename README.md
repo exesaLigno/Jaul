@@ -7,13 +7,13 @@
 * [About language - Syntax](#jc_syntax)
 
 * [Using - Compiler](#jc_usage)  
-  <!-- [Using - Running JVM](#jvm_usage)  -->
   [Compilation principle](#principle)  
   [Object files](#object)  
-  <!-- [JAUL Virtual Mashine](#jvm)  -->
   [Assembly](#assembly)  
   [Examples](#examples)  
   <!-- [Performance tests](#performance)  -->
+  <!-- [Using - Running JVM](#jvm_usage)  -->
+  <!-- [JAUL Virtual Mashine](#jvm)  -->
 
 <!-- * [Source documentation](.docs/html/index.html) -->
 
