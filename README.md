@@ -7,15 +7,15 @@
 * [About language - Syntax](#jc_syntax)
 
 * [Using - Compiler](#jc_usage)  
-  [Using - Running JVM](#jvm_usage)  
+  <!-- [Using - Running JVM](#jvm_usage)  -->
   [Compilation principle](#principle)  
   [Object files](#object)  
-  [JAUL Virtual Mashine](#jvm)  
+  <!-- [JAUL Virtual Mashine](#jvm)  -->
   [Assembly](#assembly)  
   [Examples](#examples)  
-  [Performance tests](#performance)  
+  <!-- [Performance tests](#performance)  -->
 
-* [Source documentation](.docs/html/index.html)
+<!-- * [Source documentation](.docs/html/index.html) -->
 
 
 <a name="jc_syntax"><h2>JAUL syntax bible</h2></a>
@@ -135,14 +135,14 @@ Compiler supports compilation options:
 Compiler takes three file types as input:
 * **`.j`** - simple hi-level source ([Examples](#examples))
 * **`.jo`** - [object files](#object)
-* **`.s`** - special JAUL assembler language (Example of .jasm files at .std folder)
+<!-- * **`.s`** - special JAUL assembler language (Example of .jasm files at .std folder) -->
 
 
-<a name="jvm_usage"><h2>Using - JVM</h2></a>
+<!-- <a name="jvm_usage"><h2>Using - JVM</h2></a>
 
 Using of [JVM](#jvm)
 
-<h3><span style = "color: red">JVM is not implemented!</style></h3>
+<h3>JVM is not implemented!</h3> -->
 
 
 
@@ -187,10 +187,10 @@ You can make your own object library from assembler with **_makeobj_** tool from
 Information about usage and requirements of this tool you can read by the link above.
 
 
-<a name="jvm"><h2>JAUL Virtual Mashine</h2></a>
+<!-- <a name="jvm"><h2>JAUL Virtual Mashine</h2></a>
 
 JAUL Virtual Mashine
-<h3><span style = "color: red">JVM is not implemented!</style></h3>
+<h3>JVM is not implemented!</h3> -->
 
 
 <a name="assembly"><h2>Assembly</h2></a>
@@ -212,7 +212,7 @@ If you want to install **JAUL Compiler Pack** to `/usr/bin` type `sudo make inst
 Examples of working code you can find in [examples](Examples/) folder.
 
 
-<a name="performance"><h2>Performance tests</h2></a>
+<!-- <a name="performance"><h2>Performance tests</h2></a> -->
 
 
 
